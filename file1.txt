@@ -1,2 +1,106 @@
-this is the new file
-this is the best file
+1. What is JUnit and what are its features?
+
+Answer:
+
+JUnit is a unit testing framework for Java used to test individual components of an application.
+
+Features:
+
+Supports test automation
+Provides annotations to define test methods
+Offers assert methods for validation
+Supports test suites (grouping tests)
+Enables exception testing
+Integrates with tools like Maven, Gradle, CI/CD pipelines
+Provides detailed test reports
+
+👉 Helps improve code quality and detect bugs early.
+
+2. What is JaCoCo and why is it used?
+
+Answer:
+
+JaCoCo (Java Code Coverage) is a code coverage tool used to measure how much of the code is tested.
+
+Uses:
+
+Measures code coverage percentage
+Identifies untested parts of code
+Generates HTML/XML reports
+Integrates with JUnit, Maven, Gradle
+
+Types of Coverage:
+
+Line coverage
+Branch coverage
+Method coverage
+
+👉 Helps improve testing efficiency and reliability.
+
+3. Define Docker and explain its key features.
+
+Answer:
+
+Docker is a containerization platform used to develop, package, and run applications in containers.
+
+Key Features:
+
+Lightweight (shares OS kernel)
+Portable (runs anywhere)
+Fast deployment
+Isolation of applications
+Uses Docker images & containers
+Supports version control (Docker Hub)
+
+👉 Ensures consistency across development, testing, and production.
+
+4. Differentiate between Virtualization and Containerization.
+
+Answer:
+
+Feature	Virtualization	Containerization
+Definition	Runs multiple OS on hardware	Runs apps in isolated containers
+Resource usage	Heavy	Lightweight
+Boot time	Slow	Fast
+OS	Each VM has its own OS	Shares host OS
+Performance	Lower	Higher
+Example	VMware	Docker
+
+👉 Containers are more efficient and widely used in DevOps.
+
+5. What is Puppet and how do Puppet master and agents interact?
+
+Answer:
+
+Puppet is a configuration management tool used to automate system setup and deployment.
+
+Components:
+
+Puppet Master – Central server
+Puppet Agent – Client machine
+
+Working:
+
+Agent sends request to Master
+Master sends configuration (manifest)
+Agent applies configuration
+Reports status back to Master
+
+👉 Ensures consistency across multiple systems.
+
+6. What are cloud solutions and their advantages over traditional deployment?
+
+Answer:
+
+Cloud solutions provide on-demand computing services (storage, servers, applications) over the internet.
+
+Advantages:
+
+Scalability (increase/decrease resources easily)
+Cost-effective (pay-as-you-use)
+High availability
+Remote access
+Automatic updates
+Disaster recovery support
+
+👉 Examples: AWS, Azure
